@@ -5,10 +5,11 @@ edition = "2024"
 
 [dependencies]
 axum = "0.8.4"
+chrono = "0.4.41"
 dotenv = "0.15.0"
 infisical = "0.0.1"
 serde = "1.0.219"
-tiberius = { version = "0.12.3", features = ["rust_decimal"] }
+tiberius = { version = "0.12.3", features = ["chrono", "rust_decimal"] }
 tokio = { version = "1.47.0", features = ["full"] }
 tower = "0.5.2"
 welds = { version = "0.4.17", features = ["mssql"] }
