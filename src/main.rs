@@ -11,7 +11,7 @@ use kondisi::KondisiAplikasi;
 use rute::sales::get_sales_data;
 
 use axum::{
-    routing::{get, post},
+    routing::post,
     Router
 };
 use std::{
